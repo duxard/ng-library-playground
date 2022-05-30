@@ -7,7 +7,7 @@ import { Component, EventEmitter, OnInit } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
-  buttonEmitter: EventEmitter<void> = new EventEmitter<void>();
+  private buttonEmitter: EventEmitter<void> = new EventEmitter<void>();
 
   constructor() { }
 
